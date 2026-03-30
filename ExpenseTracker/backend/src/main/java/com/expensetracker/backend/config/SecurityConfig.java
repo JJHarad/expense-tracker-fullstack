@@ -25,7 +25,7 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOrigins(List.of("http://localhost:3000", "https://expense-tracker-fullstack-rose.vercel.app"));
+        config.setAllowedOrigins(List.of("http://localhost:3000", "https://expense-tracker-fullstack-av4pe6f69-jordans-projects-6e3d18ba.vercel.app"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
