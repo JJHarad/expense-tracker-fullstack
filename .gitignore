@@ -1,0 +1,16 @@
+
+node_modules/
+build/
+
+target/
+*.log
+
+
+.idea/
+*.iml
+
+
+.DS_Store
+
+
+.env
