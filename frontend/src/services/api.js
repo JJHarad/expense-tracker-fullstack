@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
- baseURL: "https://expense-tracker-m82k.onrender.com/api"
+ baseURL: "https://expense-tracker-fullstack-m82k.onrender.com/api"
 });
 
 
